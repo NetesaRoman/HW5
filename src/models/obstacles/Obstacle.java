@@ -32,5 +32,5 @@ public abstract class Obstacle {
         this.length = length;
     }
 
-    public abstract void Overcome(Contestor contestor);
+    public abstract void overcome(Contestor contestor);
 }

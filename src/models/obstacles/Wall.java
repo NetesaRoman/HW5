@@ -12,7 +12,7 @@ public class Wall extends Obstacle {
 
     //methods
     @Override
-    public void Overcome(Contestor contestor) {
+    public void overcome(Contestor contestor) {
         contestor.jump(this);
     }
 }

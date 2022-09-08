@@ -45,7 +45,7 @@ public class Main {
         System.out.println("-------------------------TASK2------------------------------");
         for (Contestor contestor : contestors) {
             for (Obstacle obstacle : route) {
-
+                obstacle.overcome(contestor);
                 if (contestor.getLost()) break;
             }
         }

@@ -20,7 +20,7 @@ public class Human extends Contestor {
                             + this.name
                             + " couldn't run over the obstacle "
                             + obstacle.getName() + " Length: "
-                            + obstacle.getLength() + "Distance "
+                            + obstacle.getLength() + " Distance "
                             + this.runCapability
             );
             this.lost = true;
@@ -44,7 +44,7 @@ public class Human extends Contestor {
                             + this.name
                             + " couldn't jump over the obstacle "
                             + obstacle.getName() + " Height: "
-                            + obstacle.getLength() + "Distance "
+                            + obstacle.getLength() + " Distance "
                             + this.jumpCapability
             );
             this.lost = true;
