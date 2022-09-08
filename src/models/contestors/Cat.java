@@ -13,7 +13,7 @@ public class Cat extends Contestor {
 
     //methods
     @Override
-    protected void run(Obstacle obstacle) {
+    public void run(Obstacle obstacle) {
         if (obstacle.getLength() > runCapability) {
             System.out.println(
                     "Cat named "
@@ -36,7 +36,7 @@ public class Cat extends Contestor {
     }
 
     @Override
-    protected void jump(Obstacle obstacle) {
+    public void jump(Obstacle obstacle) {
         if (obstacle.getLength() > jumpCapability) {
             System.out.println(
                     "Cat named "

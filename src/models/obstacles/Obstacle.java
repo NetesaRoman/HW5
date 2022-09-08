@@ -1,5 +1,7 @@
 package models.obstacles;
 
+import models.contestors.Contestor;
+
 public abstract class Obstacle {
 
     //fields
@@ -29,4 +31,6 @@ public abstract class Obstacle {
     public void setLength(double length) {
         this.length = length;
     }
+
+    public abstract void Overcome(Contestor contestor);
 }

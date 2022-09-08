@@ -15,20 +15,14 @@ public abstract class Contestor {
     }
 
     //methods
-    protected abstract void run(Obstacle obstacle);
+    public abstract void run(Obstacle obstacle);
 
-    protected abstract void jump(Obstacle obstacle);
+    public abstract void jump(Obstacle obstacle);
 
     public boolean getLost() {
         return lost;
     }
 
-    public void overcome(Obstacle obstacle) {
-        if (obstacle.getIsVertical()) {
-            this.jump(obstacle);
-        } else {
-            this.run(obstacle);
-        }
-    }
+
 
 }
